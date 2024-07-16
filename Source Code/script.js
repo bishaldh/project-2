@@ -1,0 +1,14 @@
+const gameBoard = document.querySelector("#gameBoard");
+const ctx = gameBoard.getContext("2d");
+const scoreText = docunet.querySelector("score");
+const resetBtn = document.querySelector("resetBtm");
+const gameWidth = gameBoard.width;
+const gameHeight =gameBoard.heigt;
+const boardBackground = "white";
+const snakeColor = "black";
+const snakeBorder = "green";
+const foodColor = "blue";
+const unitSize = 25;
+let running = false;
+let xVelocity = unitSize;
+let yVelocity = 0;
